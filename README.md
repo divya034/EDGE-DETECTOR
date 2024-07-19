@@ -46,5 +46,3 @@ Step 16: End
 7. weighted addition in equal proportions
 
 ```
-- - - - 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/164c2a085a9f47da9c83f064186e81de)](https://www.codacy.com/app/rtzdzn/EDGE-DETECTOR?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ritwikraha/EDGE-DETECTOR&amp;utm_campaign=Badge_Grade)
