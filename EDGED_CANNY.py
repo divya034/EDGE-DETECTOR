@@ -65,6 +65,7 @@ imgcanny= cannytest(img)
 
 
 
+
 titles = ['Original Image','EDGE-INV','RAW EDGE','CANNY']
 images = [img, edges_inv, imgbinary, imgcanny]
 
