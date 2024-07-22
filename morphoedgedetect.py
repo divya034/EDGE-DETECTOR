@@ -27,13 +27,14 @@ def morphoedgedetect(imgj):
 	            cv2.THRESH_BINARY,11,4)
 	    
 	    return imgbinar
-
+ 
 	imgbinary= thres(edges_inv)
+	
 	d=psnr(edges_inv,imgbinary)
 	if d<=psnr(img,gradient):
 		imgF = cv2.addWeighted(imgbinary, 0.3, edges_inv, 0.7, 0)
 		
-
+  
 	imgF = cv2.addWeighted(imgbinary, 0.5, edges_inv, 0.5, 0)
 
 	return imgF
