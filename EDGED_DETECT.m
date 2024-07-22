@@ -7,6 +7,7 @@ im_dilate = imdilate(I,se);
 
 im_closing = imerode(im_dilate,se);
 
+
 im_dilate2 = imdilate(im_closing,se);
 
 basic_gradient = imdilate(im_dilate2, se) - imerode(im_dilate2, se);
