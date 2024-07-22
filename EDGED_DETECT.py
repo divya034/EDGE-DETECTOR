@@ -71,7 +71,8 @@ hence they are merged in 0.3(of the thresholded image) and 0.7(of the inverted g
 #can be put in a iterable method to dtermine the set of weights for which the image is sharpest
 if d<=psnr(img,gradient):
 	imgF = cv2.addWeighted(imgbinary, 0.3, edges_inv, 0.7, 0)
-	
+
+
 
 imgF = cv2.addWeighted(imgbinary, 0.5, edges_inv, 0.5, 0)
 
