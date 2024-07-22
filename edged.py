@@ -28,6 +28,7 @@ def morphoedgedetect(imgj):
 	    
 	    return imgbinar
 
+	
 	imgbinary= thres(edges_inv)
 	d=psnr(edges_inv,imgbinary)
 	if d<=psnr(imgj,gradient):
